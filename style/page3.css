@@ -1,0 +1,46 @@
+
+/*html {
+	margin: auto;
+	width: 1200px;
+	padding-left: 0px 30px 0px 30px;
+	border-color: red;
+	background-color: lightyellow;
+}
+
+#header {
+	width: 1200px;
+	height: 100px;
+	background-color: lightgrey;
+	font-size: 100px;
+	padding:20px 0px 20px 20px;
+	text-align: center;
+}
+
+/*#container {
+	margin: 0px 30px 0px 30px;
+	width: 1200px;
+	height: 900px;
+	border: 10px solid red;
+	margin: 0 auto;
+}
+
+#first, #second, #third, #fourth{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 0px 10px 0px 10px;
+	border-radius: 50%;
+}
+
+ 
+ {
+	clear: all;
+	border: 1px solid black;
+	border-radius: 50%; 
+
+
+
+footer {
+	text-align: right;
+}
