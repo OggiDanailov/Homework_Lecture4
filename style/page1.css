@@ -1,0 +1,34 @@
+#donate {
+	width: 900px;
+	margin: 0 300px;
+}
+header{
+	width: 900px;
+	margin: 0px auto;
+	font-size: 48px;
+	font-family: courier;
+	color: #FF6600;
+	text-align: center;
+}
+article {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: Trebuchet;
+	font-size: 20px;
+	text-align: justify;
+}
+
+#docar, #poor, #help{
+	float: right;
+	padding-left: 10px;
+}
+#hope, #hap{
+	float: left;
+	padding-right: 10px;
+}
+#thank {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+}
