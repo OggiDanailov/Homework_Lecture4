@@ -1,0 +1,53 @@
+nav{
+  text-align: center;
+  border: 5px solid lightgreen;
+  background-color: #000;
+}
+nav ul{
+  list-style-type: none;
+}
+nav ul li{
+  display:inline-block;
+  margin-left:2%;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav ul li a:hover {
+    color: lightgreen;
+}
+.barhome{
+  color: #ccc;
+  font-family:brush script mt;
+  font-size: 300%;
+}
+.bar {
+    color: red;
+    font-size:250%;
+}
+#p2container{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#p2wrapper{
+ /* margin: 25% 0;*/
+}
+#p2wrapper header{
+  font-size: 48px;
+  font-family: courier;
+  color: #FF6600;
+}
+#p2wrapper p {
+  padding: 10px 150px;
+  font-size: 30px;
+  font-style: trebuchet;
+}
+#button{
+  padding: 100px;
+}
+#girl{
+  width: 500px;
+}
+

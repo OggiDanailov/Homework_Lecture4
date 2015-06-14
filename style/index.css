@@ -1,5 +1,6 @@
 body {
    background-color: #fff;
+   margin: 0 auto;
 }
 nav{
   text-align: center;
@@ -30,38 +31,24 @@ nav ul li a:hover {
     color: red;
     font-size:250%;
 }
-
-/*.box {
-		background-color: white;
-		height:1000px;
-}*/
-
-/*header {
-    float:left;
-    color:white;
-    font-family:brush script mt;
-    
-}*/    
-/*.title {
-    float:top;
-}*/
-#wrapper{
+#maincontainer{
   width: 100%;
   margin: 0 auto;
 }
+#mainwrapper{
+  text-align: center;
+}
 #cleft {
     width: 20%;
-    min-height: 1200px;
-    margin: 0px;
+    height: 1220px;
     padding: 10px; 
     border: 5px solid red;
     background-color:#fff;
     float: left;
-    /*clear: bottom;*/
 }
 #cleft p{
   width: 100%;
-  font: 25px trebuchet; 
+  font-size: 25px; 
   color: #fff;
   padding: 10px;
   margin: -10px 0 80px -10px;
@@ -69,29 +56,31 @@ nav ul li a:hover {
   background-color:blue;
   border-bottom: 5px solid red; 
 }
-.box {
+#cleft ul {
   list-style-type: none;
-  padding: 0 20px 0 0;
+  padding: 0px;
   margin-top: 80px;
 }
 #cleft li{
   text-align: center;
   font: 22px bold;
 }
+.box {
+  width: 60px;
+  height: 70px;
+}
 #cright{
-    width: 74%;
-    height: 1200px;
-    margin: 0px;
+    width: 72%;
+    height: 1220px;
     padding: 10px;
     border: 5px solid blue;
     color: red;
     font-size: 20px;
     text-align: center;
-   /* background-color: #fff;*/
     float: right;
    /* clear: bottom;*/
 }
-h1 {
+#cright h1 {
   text-align: center;
   color: blue;
   margin: -10px;
@@ -103,47 +92,142 @@ h1 {
   text-align: justify;
   color: blue;
 }
-#cright li{
+#cright ul{
+  list-style-type: none;
+  margin-top: 0px;
+}
+#cright ul li{
   text-align: center;
   color: blue;
   margin-top: 0px;
 } 
-.happybox{
-list-style-type: none;
-  padding: 0 20px 0 0;
-  margin-top: 0px;
+#cright img{
+  width: 50%;
 }
 #clear{
   clear: both;
 }
-/*.footer-bottom {
-  	float:bottom;
-  	width: 98%;
-  	height: 0%;
-  	border-style:solid;
-  	color:lightgreen;
-  	background-color:black;
-}*/
-/*.titlesize {
-	 text-align:center;
-	 color: white;
+#p1container{
+  display: block;
+  width: 100%;
+  text-align: center;
 }
-.titlesize2 {
-	 text-align:center;
-	 color: white;
-	 font-size:200%;
-}*/
+#donate {
+  width: 50%;
+}
+#p1container header{
+  font-size: 48px;
+  font-family: courier;
+  color: #FF6600;
+}
+#p1wrapper {
+  padding: 20px;
+  font-family: Trebuchet;
+  font-size: 20px;
+  text-align: justify;
+}
+#docar, #poor, #help{
+  float: right;
+  padding-left: 10px;
+}
+#hope, #hap{
+  float: left;
+  padding-right: 10px;
+}
+#thank {
+  width: 70%;
+  padding: 20px;
+  margin: 0 15%
+}
+#p2container{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#p2wrapper header{
+  font-size: 48px;
+  font-family: courier;
+  color: #FF6600;
+}
+#p2wrapper p {
+  padding: 10px 150px;
+  font-size: 30px;
+  font-style: trebuchet;
+}
+#button{
+  padding: 100px;
+}
+#girl{
+  width: 500px;
+}
 
-/*.bluebuy {
-	 color:blue;
-   font-size:80%;
-}*/
-/*.song {
-    text-align:center;
-		font-size: 75%
-}*/
-/*.imagecenter {
-  	margin-left: 0 auto; 
-  	margin-right: 0 auto;
-  	display: 0 auto;
-}*/
+#p3container {
+  max-width: 1200px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+#p3header {
+  margin-bottom: 20px;
+}
+
+#p3header h1 {
+  background-color: black;
+  font-size: 50px;
+  margin: 0px 0px;
+  height: 100px;
+  text-align: center;
+}
+
+#circle_holder {
+  width:200vx;
+  height:200px;
+  border:grey solid 1px ;
+  background-color: blue;
+  margin-bottom: 0px; 
+}
+
+.circle {
+width:320px;
+height:200px;
+margin: 0px 20px 0px 50px;
+border:1px solid black;
+border-radius: 100px;
+float:left;
+background-color: red;
+}
+
+.circle p {
+  width:400px;
+  margin:0px auto;
+  padding: 90px 10px 10px 10px;
+  font-size: 20px;
+}
+#p3container img {
+  width: 1200px;
+  height: 800px;
+ }
+#square_holder {
+  width:200vx;
+  height:200px;
+  border:1px solid black;
+  background-color: blue;
+}
+.square {
+  width:320px;
+  height:200px;
+  margin: 0px 20px 0px 50px;
+  border:1px solid black;
+  border-radius: 100px;
+  float:left;
+  background-color: red;
+}
+.square p {
+  width:400px;
+  margin:0px auto;
+  padding: 90px 10px 10px 10px;
+  font-size: 20px;
+}
+footer{ 
+padding-left: 20px;
+}
